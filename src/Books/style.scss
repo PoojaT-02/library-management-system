@@ -1,0 +1,32 @@
+header {
+  height: 45px;
+  background: #421984;
+  width: 100%;
+}
+footer {
+  height: 35px;
+  background: #ccc;
+  width: 100%;
+}
+.Book_wrapper {
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.Book_wrapper::after {
+  content: "";
+  flex: auto;
+}
+.bookList {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 20%;
+  margin-bottom: 10px;
+  text-align: center;
+}
